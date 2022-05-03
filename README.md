@@ -2,14 +2,14 @@
 
 ## 01. Клонуємо сайт на свій комп
   	cd /c/intel  (для GitBash)
-	cd c:\intel  (для VSC)
+	cd c:\intel  (для GitCMD)
 	git clone https://github.com/rymar3/rymar3.github.io.git
 	cd rymar3.github.io
-	git remote set-url origin https://rymar:TOKEN@github.com/rymar3/rymar3.github.io.git
+	git remote set-url origin https://rymar3:TOKEN@github.com/rymar3/rymar3.github.io.git
 ## 02. Прописуємо данні про себе щоб автори проекта знали хто вносив зміни електронна пошта повинна бути зареєстрована в github !!!
-	git config --global user.name "ВАШЕ"
-	git config --global user.email "ВАША ПОЧТА"	
-## 03. 	Створюємо нову вітку:
+	git config --global user.name "ВАШ ЛОГІН GITHUB"
+	git config --global user.email "ВАША ПОЧТА GITHUB"	
+## 03. 	Створюємо нову вітку - site:
 		git branch site
 ## 04.	Переходимо в вітку site :
 		git checkout site
@@ -23,7 +23,7 @@
 
 ## 08.	Перемкаємся на основну вітку :
 	git branch
-	git checkout master
+	git checkout main (master)
 	
 ## 09.  Отримуємо останню версію файла проекту :
 	git pull 
