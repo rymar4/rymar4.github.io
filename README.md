@@ -6,7 +6,8 @@
 	git clone https://github.com/rymar3/rymar3.github.io.git
 	cd rymar3.github.io
 	
-## 02. Прописуємо данні про себе щоб автори проекта знали хто вносив зміни електронна пошта повинна бути зареєстрована в github !!!
+## 02. Прописуємо данні про себе щоб автори проекта знали хто вносив зміни 
+	Eлектронна пошта повинна бути зареєстрована в github !!!
 	git config --global user.name "ВАШ ЛОГІН GITHUB"
 	git config --global user.email "ВАША ПОЧТА GITHUB"	
 	git remote set-url origin https://rymar3:TOKEN@github.com/rymar3/rymar3.github.io.git
